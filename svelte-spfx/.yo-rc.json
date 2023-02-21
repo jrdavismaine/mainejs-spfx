@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "svelte-spfx",
+    "libraryId": "8d904fab-facb-4406-b283-be75d5687f03",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "svelte-spfx",
+    "solutionShortDescription": "svelte-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

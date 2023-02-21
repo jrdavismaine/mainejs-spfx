@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "datatables-jquery-spfx-client-side-solution",
+    "id": "356a6b82-4720-42a5-841a-1320384c561d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "datatables-jquery-spfx description"
+      },
+      "longDescription": {
+        "default": "datatables-jquery-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "datatables-jquery-spfx Feature",
+        "description": "The feature that activates elements of the datatables-jquery-spfx solution.",
+        "id": "da9f2d74-5dad-4342-a8b7-48a945d32bd2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/datatables-jquery-spfx.sppkg"
+  }
+}

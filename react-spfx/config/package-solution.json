@@ -1,0 +1,40 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "react-test-client-side-solution",
+        "id": "c08aadb5-1641-4859-b9d9-4948f524ad59",
+        "version": "1.0.20.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.16.0-beta.1"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "ReactTest description"
+            },
+            "longDescription": {
+                "default": "ReactTest description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "react-test Feature",
+                "description": "The feature that activates elements of the react-test solution.",
+                "id": "d6a4532b-fa0a-444a-ad5d-501f853a43a0",
+                "version": "1.0.20.0"
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/react-test.sppkg"
+    }
+}

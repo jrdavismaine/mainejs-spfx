@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "datatables-j-query-sp-fx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/datatablesJQuerySpFx/DatatablesJQuerySpFxWebPart.js",
+          "manifest": "./src/webparts/datatablesJQuerySpFx/DatatablesJQuerySpFxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.6.3.min.js",
+      "globalName": "jQuery"
+    },
+    "datatables.net": {
+      "path": "https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js",
+      "globalName": "datatables.net",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }    
+  },
+  "localizedResources": {
+    "DatatablesJQuerySpFxWebPartStrings": "lib/webparts/datatablesJQuerySpFx/loc/{locale}.js"
+  }
+}

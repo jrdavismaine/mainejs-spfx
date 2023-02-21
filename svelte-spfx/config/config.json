@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "svelte-sp-fx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/svelteSpFx/SvelteSpFxWebPart.js",
+          "manifest": "./src/webparts/svelteSpFx/SvelteSpFxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SvelteSpFxWebPartStrings": "lib/webparts/svelteSpFx/loc/{locale}.js"
+  }
+}

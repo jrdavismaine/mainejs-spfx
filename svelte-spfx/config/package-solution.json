@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "svelte-spfx-client-side-solution",
+    "id": "8d904fab-facb-4406-b283-be75d5687f03",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "svelte-spfx description"
+      },
+      "longDescription": {
+        "default": "svelte-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "svelte-spfx Feature",
+        "description": "The feature that activates elements of the svelte-spfx solution.",
+        "id": "a1f5496e-9990-4464-b4bf-0f7ed9245639",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/svelte-spfx.sppkg"
+  }
+}
