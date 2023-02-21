@@ -3,7 +3,7 @@
   "solution": {
     "name": "datatables-jquery-spfx-client-side-solution",
     "id": "356a6b82-4720-42a5-841a-1320384c561d",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "datatables-jquery-spfx Feature",
         "description": "The feature that activates elements of the datatables-jquery-spfx solution.",
         "id": "da9f2d74-5dad-4342-a8b7-48a945d32bd2",
-        "version": "1.0.0.0"
+        "version": "1.0.1.0"
       }
     ]
   },

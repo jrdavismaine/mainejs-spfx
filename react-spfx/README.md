@@ -23,7 +23,7 @@ The code in the React-SPFx integration example also demonstrates how to access a
 Open config/serve.json, replace `initialPage` with a link to the SharePoint site you just created, e.g. `https://mytenant.sharepoint.com/sites/ReactSPFXIntegration`. This needs to be done to in order to preview the site.
 
 ## Install
-From the mainejsspfx root, type `cd react-spfx` then `npm install`. All dependencies will be installed.
+From the `mainejsspfx` root, type `cd react-spfx` then `npm install`. All dependencies will be installed.
 
 ## Preview changes
 1. Run `gulp serve`. Wait for the workbench to open in a new window.<br />![SharePoint Workbench](../docs/images/sharepointWorkbench.png)
