@@ -2,9 +2,16 @@
 This README.md explains how to publish a SharePoint solution file to SharePoint online.
 
 # Pre-build process
+
+## Increment version numbers
+
+### config/package-solution.json
 Do not forget to increment the version number in `config/package-solution.json`. 
 
 Before starting the build process, the `solution/version` and `features/version` properties (which are found in `config/package-solution.json`). Best to keep the version numbers the same as well.
+
+### package.json
+Update package.json version number as well.
 
 # Build process
 To bundle the solution code, type `gulp bundle --ship`. This command compiles the code and replaces what is found in the dist and lib directories.
