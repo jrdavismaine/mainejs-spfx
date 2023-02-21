@@ -45,13 +45,13 @@ export const addItemToListCall = async (formState: IAddNewReturnsItem) => {
         method: 'POST',
         headers: headers,
         body: JSON.stringify({
-            StockUnit: formState.StockUnit,
+            // For some annoying reason SharePoint has made StockUnit the default!!!
+            Title: formState.StockUnit,
             ProductDescription: formState.ProductDescription,
             ReturnsId: formState.ReturnsId,
             ReturnsLocation: formState.ReturnsLocation,
             Price: formState.Price,
             ItemCost: formState.ItemCost,
-            Title: formState.UPC,
             UPC: formState.UPC,
         }),
     };
