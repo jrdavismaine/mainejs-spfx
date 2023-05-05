@@ -1,10 +1,10 @@
 # mainejs-spfx-demo
 This repo contains examples of how to integreate jQuery/DataTables, React and Svelte into a SharePoint page using the SharePoint Framework.
 
-The code in this repo was part of a presentation I made on the subject at the Feb 2022 meeting of the [Maine.JS](https://www.meetup.com/maine-js/) meetup.
+The code in this repo was part of a presentation I made on the subject at the Feb 2023 meeting of the [Maine.JS](https://www.meetup.com/maine-js/) meetup.
 
 # Slide deck
-See Overview of SharePoint Online and how to integrate - Feb 2022.pdf for the slide deck used in the presentation.
+See [Overview of SharePoint Online and how to integrate - Feb 2023.pdf](https://github.com/jdavis61/mainejs-spfx/blob/main/Overview%20of%20SharePoint%20Online%20and%20how%20to%20integrate%20-%20Feb%202023.pdf) for the slide deck used in the presentation.
 
 # Clone
 ```
